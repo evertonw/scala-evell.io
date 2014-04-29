@@ -1,0 +1,23 @@
+Using SBT SCALAJMS_SBT to test jms oracle AQ
+
+
+In \lib
+
+
+aqapi.jar
+jmscommon.jar
+jndi.jar
+jta.jar
+ldap.jar
+ojdbc7.jar
+orai18n.jar
+xdb.jar
+xmlparserv2.jar
+
+
+
+
+Manual run of scala compiler :-
+
+scala -classpath C:\SCALAJMS\jmscommon.jar;C:\SCALAJMS\aqapi.jar;C:\SCALAJMS\jta.jar;C:\SCALAJMS\xdb.jar;C:\SCALAJMS\xmlparserv2.jar;C:\SCALAJMS\ojdbc7.jar;C\SCALAJMS\jndi.jar;C:\SCALAJMS\orai18n  jms_nojndi_receive_client.scala
+
